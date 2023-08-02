@@ -77,7 +77,7 @@ export const ApiDataProvider = ({ children }) => {
 
   return (
     <ApiDataContext.Provider value={{ loading, products, jewelry, men, wonen }}>
-      {children}
+      {children}ff
     </ApiDataContext.Provider>
   );
 };
